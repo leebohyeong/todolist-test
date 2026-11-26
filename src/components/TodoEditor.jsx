@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import '../assets/css/todoEditor.css'
+import './TodoEditor.css'
 
 const TodoEditor = ({onCreate}) => {
 

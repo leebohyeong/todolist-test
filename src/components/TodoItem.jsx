@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../assets/css/todoItem.css'
+import './TodoItem.css'
 
 const toInputDate = (time) => {
     const d = new Date(time);
