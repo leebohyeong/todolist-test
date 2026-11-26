@@ -1,3 +1,8 @@
+:root {
+    --accent-color: rgb(47, 83, 201);
+    --border-radius: 10px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +16,12 @@ button {
 }
 
 .wrap {
-    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
     border: 1px solid #ddd;
 }

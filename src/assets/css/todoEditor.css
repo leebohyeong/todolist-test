@@ -1,0 +1,19 @@
+.todo-editor {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.todo-editor input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+}
+
+.todo-editor button {
+    width: 80px;
+    height: 45px;
+    background-color: #eee;
+    border-radius: var(--border-radius);
+}
